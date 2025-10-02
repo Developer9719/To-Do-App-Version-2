@@ -1,7 +1,7 @@
 {
-  "name": "jsapptemplate",
+  "name": "todoappversion2",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project takes it's design inspiration from Finch app",
   "main": "./src/script/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Developer9719/jsAppTemplate.git"
+    "url": "git+https://github.com/Developer9719/To-Do-App-Version-2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Developer9719/jsAppTemplate/issues"
+    "url": "https://github.com/Developer9719/To-Do-App-Version-2/issues"
   },
-  "homepage": "https://github.com/Developer9719/jsAppTemplate#readme",
+  "homepage": "https://github.com/Developer9719/To-Do-App-Version-2#readme",
   "devDependencies": {
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1",
