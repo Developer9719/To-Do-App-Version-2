@@ -1,0 +1,16 @@
+* { /* Universal Selector: Reset */
+    margin: 0;
+    padding: 0;
+}
+
+header > h1, footer { /* Direct Child selector */
+    text-align: center;
+}
+
+header, footer {
+    height: 10%;
+}
+
+.mainContent {
+    height: 90%;
+}
