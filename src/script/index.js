@@ -1,5 +1,5 @@
 import './pageLoad.js' // Runs the IIFE for intital setup for the site
-import  { customizedHTML } from './structure.js';
+import  { basicStructure } from './structure.js';
 
 export const siteTitle = 'To-Do App';
 export let pageTitle = "Home";
@@ -8,4 +8,4 @@ export let pageTitle = "Home";
 document.querySelector('title').textContent = siteTitle + ' | ' + pageTitle;
 
 // Create the basic and customized page layout
-customizedHTML();
+basicStructure();

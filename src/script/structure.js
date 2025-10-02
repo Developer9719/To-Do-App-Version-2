@@ -1,5 +1,6 @@
 import { siteTitle, pageTitle } from "./index.js";
 import '../styles/structure.css';
+import { customBody } from "./customBody.js";
 
 // Basic Element Structure
 /**
@@ -99,17 +100,18 @@ export class basicElementStructures {
     }
 }
 
-export function customizedHTML() {
+export function basicStructure() {
     let content = '';
     
     /* Basic Header */ 
     const header = basicElementStructures.siteHeader(`${siteTitle}`);
     new basicElementStructures(header, 'body');
-
-    const div = basicElementStructures.div('Test Content', ['mainContent']);
+    
+    // Customized Body
+    const div = basicElementStructures.div('', ['mainContent']);
     new basicElementStructures(div, 'body');
 
-    /* Customized Content */
+    customBody();
 
     /* Basic Footer */
     content = `&copy 2025 - ${siteTitle}`;
