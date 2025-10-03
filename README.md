@@ -118,6 +118,12 @@ class MyClass {
 ```
 MyClass.div() - Calling the static factory method
 
-# Next Tasks
-- Add edit and delete functionality to each of the projects
-- Get tasks displayed and working with CRUD functionality
+# Design
+- Designed like the task list in the Finch app
+- Top task is always the project name
+- When you click on it the tasks for the project are expanded underneath designed the same way the project bubble is just smaller
+- When you click on the project name edit and delete buttons are also displayed for the tasks and the project on the right hand side
+
+# Coding Tasks
+- Functionality First 
+- Design Last
