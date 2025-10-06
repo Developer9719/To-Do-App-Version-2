@@ -126,4 +126,13 @@ MyClass.div() - Calling the static factory method
 
 # Coding Tasks
 - Functionality First 
+  - Task and Project specific requirements listed in the individual files
+  - General Requirements
+    - Interface Actions
+      - View all projects
+      - View all to-do's in each project
+      - Expand each to-do and project to edit there details
+      - Basic CRUD actions for all projects and to-do's 
+    - Practice using external libraries with Webpack IE: date-fns
+    - Make use of localStorage to have the projects and to-do's persist across reloads and relaunches
 - Design Last
